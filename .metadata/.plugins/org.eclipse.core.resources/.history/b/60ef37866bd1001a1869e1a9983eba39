@@ -1,0 +1,68 @@
+package com.saiparesh.isbn;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.function.Executable;
+
+class ValidateISBNTest {
+
+	@Test
+	void checkValidISBN() {
+		ValidateISBN validatorIsbn = new ValidateISBN();
+		boolean result = validatorIsbn.checkISBN("0140449116");
+		assertTrue(result, "First Value");
+		result = validatorIsbn.checkISBN("0140177396");
+		assertTrue(result, "Second Value");
+	}
+	
+	@Test
+	public void checkAValid13DigitISBN() {
+		ValidateISBN validatorIsbn = new ValidateISBN();
+		boolean result = validatorIsbn.checkISBN("9781853260087");
+		assertTrue(result);
+	}
+	
+	@Test
+	public void ISBNNumbersEndingInAnXAreValid() {
+		ValidateISBN validatorIsbn = new ValidateISBN();
+		boolean result = validatorIsbn.checkISBN("012000030X");
+		assertTrue(result, "First Value");
+	}
+	
+	@Test
+	void checkInvalidISBN() {
+		ValidateISBN validatorIsbn = new ValidateISBN();
+		boolean result = validatorIsbn.checkISBN("0140449117");
+		assertFalse(result);
+	}
+
+	@Test
+	public void nineDigitISBNAreNotAllowed() {
+		Assertions.assertThrows(NumberFormatException.class, new Executable() {
+			
+			@Override
+			public void execute() throws Throwable {
+				// TODO Auto-generated method stub
+				ValidateISBN validatorIsbn = new ValidateISBN();
+				validatorIsbn.checkISBN("140449117");
+			}
+		});
+		
+	}
+	
+	@Test
+	public void nonNumericISBNsAreNotAllowed() {
+		Assertions.assertThrows(NumberFormatException.class, new Executable() {
+			
+			@Override
+			public void execute() throws Throwable {
+				// TODO Auto-generated method stub
+				ValidateISBN validatorIsbn = new ValidateISBN();
+				validatorIsbn.checkISBN("Helloworld");
+			}
+		});
+		
+	}
+}
