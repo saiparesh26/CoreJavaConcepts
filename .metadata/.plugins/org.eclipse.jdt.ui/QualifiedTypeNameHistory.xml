@@ -22,8 +22,6 @@
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="com.saiparesh.isbn.ExternalISBNDataService"/>
     <fullyQualifiedTypeName name="com.saiparesh.isbn.Book"/>
-    <fullyQualifiedTypeName name="java.util.Collection"/>
-    <fullyQualifiedTypeName name="java.util.Collections"/>
     <fullyQualifiedTypeName name="com.saiparesh.Company"/>
     <fullyQualifiedTypeName name="com.saiparesh.Husky"/>
     <fullyQualifiedTypeName name="com.saiparesh.Dog"/>
@@ -49,13 +47,17 @@
     <fullyQualifiedTypeName name="com.saiparesh.Chicken"/>
     <fullyQualifiedTypeName name="com.saiparesh.Bird"/>
     <fullyQualifiedTypeName name="com.saiparesh.Sparrow"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="com.saiparesh.lesson2.Vehicle"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.lang.InternalError"/>
     <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
+    <fullyQualifiedTypeName name="com.saiparesh.sets.Animal"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Collection"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.util.HashSet"/>
-    <fullyQualifiedTypeName name="com.saiparesh.sets.Animal"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="com.saiparesh.collectionMethods.Employee"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
 </qualifiedTypeNameHistroy>
