@@ -6,4 +6,10 @@ public class Husky extends Dog {
 		System.out.println("Husky");
 	}
 	
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+		super.eat();
+		System.out.println("Husky eating");
+	}
 }

@@ -12,6 +12,8 @@ public class Main {
 		Dog dog = new Dog(13);
 		dog.setName("Rex");
 		dog.printDetails();
+		
+		husky.eat();
 	}
 
 }

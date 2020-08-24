@@ -30,4 +30,11 @@ public class Animal {
 		System.out.println("Name = "+ name + " Age = "+ age);
 	}
 	
+	public void eat() {
+		System.out.println("Animal is eating");
+	}
+	
+	public final double getAverageWeight() {
+		return 10.0;
+	}
 }
