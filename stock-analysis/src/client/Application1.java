@@ -4,7 +4,7 @@ import aggregators.Aggregator;
 import aggregators.MeanAggregator;
 import aggregators.MinAggregator;
 
-public class Application {
+public class Application1 {
 
 	public static void main(String[] args) {
 		
@@ -16,11 +16,11 @@ public class Application {
 		values.add(100.90);
 		values.add(98.76);
 		
-		Aggregator minValue = new MinAggregator(values.getValues());
+//		Aggregator minValue = new MinAggregator(values.getValues());
 				
-		double result = minValue.calculate();
-		
-		System.out.println(result);
+//		double result = minValue.calculate();
+//		
+//		System.out.println(result);
 		
 	}
 
