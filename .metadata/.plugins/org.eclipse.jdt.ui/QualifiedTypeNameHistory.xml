@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.sun.tools.jdeps.JdepsConfiguration.Builder"/>
-    <fullyQualifiedTypeName name="java.lang.Character"/>
-    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
-    <fullyQualifiedTypeName name="com.saiparesh.Company"/>
-    <fullyQualifiedTypeName name="com.saiparesh.Husky"/>
     <fullyQualifiedTypeName name="com.saiparesh.Dog"/>
     <fullyQualifiedTypeName name="com.saiparesh.Static"/>
     <fullyQualifiedTypeName name="com.saiparesh.Complex"/>
@@ -16,7 +11,6 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="com.saiparesh.MyFileUtils"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.AutoCloseable"/>
     <fullyQualifiedTypeName name="com.saiparesh.trywithresources.MyClass"/>
@@ -39,7 +33,6 @@
     <fullyQualifiedTypeName name="java.io.BufferedReader"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="javax.swing.text.AbstractDocument.BranchElement"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.util.HashMap"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
@@ -55,9 +48,16 @@
     <fullyQualifiedTypeName name="java.util.Iterator"/>
     <fullyQualifiedTypeName name="com.sun.org.apache.bcel.internal.generic.NEW"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
-    <fullyQualifiedTypeName name="java.util.ArrayList"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.saiparesh.wildcards.Employee"/>
     <fullyQualifiedTypeName name="com.saiparesh.wildcards.Accountant"/>
+    <fullyQualifiedTypeName name="i1"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="aggregators.Aggregator"/>
+    <fullyQualifiedTypeName name="client.StockFileApplication"/>
+    <fullyQualifiedTypeName name="fileprocessors.StockFileReader"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="aggregators.MaxAggregator"/>
 </qualifiedTypeNameHistroy>
